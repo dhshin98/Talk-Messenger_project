@@ -178,3 +178,28 @@
 .reply:focus-within{
     transform:translateY(80px);
 }
+@keyframes friendMessage{
+    from{
+        transform:translateX(-50px);
+    }
+    to{
+        transform:none;
+    }
+}
+@keyframes myMessage{
+    from{
+        transform:translateX(50px);
+    }
+    to{
+        transform:none;
+    }
+}
+
+.message-friend .message__time,
+.message-friend .message__bubble{
+    animation:friendMessage 0.5s linear;
+}
+
+.message-row--own{
+    animation:myMessage 0.5s linear;
+}
