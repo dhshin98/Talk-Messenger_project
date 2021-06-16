@@ -17,11 +17,12 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 body{
     font-family: 'Work Sans', sans-serif;      
     color:#2e363e;
-   /* height: 1000vh;*/
+    height: 1000vh;
 }
 .main-screen{
     padding:0px var(--horizontal-space);

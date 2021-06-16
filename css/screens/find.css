@@ -86,3 +86,25 @@
 .open-post__heart-count span{
     margin:3px;
 }
+
+@keyframes heartbeat{
+    0%{
+        color:white;
+        transform:none;
+
+    }
+    50%{
+        color:tomato;
+        transform:scale(1.5);
+    }
+    100%{
+        color:white;
+        transform:none
+    }
+}
+
+.open-post__heart-count:hover i{
+    will-change: transform; /*animation 계산을 완벽하게 할 수 있도록- 흔들리는 것 방지*/
+    animation:heartbeat 1s linear infinite;
+}
+
