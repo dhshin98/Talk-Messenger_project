@@ -1,9 +1,9 @@
 
 .nav{
+    background-color: #d3e0f7;
     position:fixed;
     bottom:0;
     width:100%;
-    background-color: #f9f9fa;
     padding:20px 50px;
     box-sizing:border-box;
     /*마지막 원소가 사라지는 현상 막기 위해*/
@@ -27,20 +27,19 @@
         transform: none;
     }
     50%{
-        transform:translateY(5px) rotateY(180deg);
+        transform:translateY(5px);
     }
     100%{
         transform:none;
     }
 }
 .nav__notification{
-
     position:absolute;
     left:15px;
     bottom:15px;
-    animation:notificationAnimation 2s ease-in-out infinite;
+    animation:notificationAnimation 1s ease-in-out infinite;
 }
-.nav__dot{
+.nav__notification{
     position:absolute;
     width:7px;
     height: 7px;
