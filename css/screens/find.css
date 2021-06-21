@@ -1,4 +1,5 @@
 
+
 .recommended-friends{
     border-top:var(--main-border);
     border-bottom: var(--main-border);
@@ -27,10 +28,16 @@
 .open-chat__header span{
     opacity: 0.6;
 }
+.open-chat-lists{
+    display:flex;
+    flex-direction: column;
+  
+}
 .open-post{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    margin-bottom:15px;
 }
 .open-post__title{
     font-weight:600;

@@ -22,7 +22,8 @@
 body{
     font-family: 'Work Sans', sans-serif;      
     color:#2e363e;
-    height: 1000vh;
+    background-color:#dae9f4;
+    height:150vh;
 }
 .main-screen{
     padding:0px var(--horizontal-space);

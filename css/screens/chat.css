@@ -1,6 +1,6 @@
 #chat-screen{
     background-color:#abc1d1;   
-    height:500vh;
+    height:100vh;
 }
 #chat-screen .alt-header{
     top:0;
@@ -85,15 +85,14 @@
     justify-content: flex-end;
 }
 .message-row--own .message__bubble{
-    background-color: var(--yellow);
+    background-color: #9DC8C8;
     border-radius:10px;
     border-top-right-radius: 0px;
     margin-right: 0px;  
     margin-left: 5px;
 }
 .message-row--own .message__info{
-    flex-direction:row-reverse;
-
+        flex-direction:row-reverse;
 }
 
 .reply{

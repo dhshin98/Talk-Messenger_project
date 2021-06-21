@@ -4,10 +4,22 @@
         <link rel="stylesheet" href ="css/styles.css" />
         <meta charset="UTF=8" />
         <meta name="viewport" content = "width-device-width, initial-scale=1.0" />
-        <title>welcome to kakaotalk</title>        
+        <style>
+        body{
+            color:#d6ecfa;
+
+            background-image: url(imgs/airplane2.jpg);
+            background-size: 100vh;
+            background-repeat: no-repeat;
+        }
+        .login-status-bar{
+            background-color:black;
+        }
+        </style>
+        <title>welcome to Traveltalk</title>        
     </head>
     <body>
-        <div class = "status-bar">
+        <div class = "status-bar login-status-bar">
             <div class ="status-bar__column">
                 <span>No service</span>
                 <i class="fas fa-wifi"></i>
@@ -25,9 +37,9 @@
         </div>
 
         <header class="welcome-header">
-            <h1 class ="welcome-header__title">Welcome to KakaoTalk</h1>
+            <h1 class ="welcome-header__title">Welcome to TravelTalk</h1>
             <p class ="welcome-header__text">
-                If you have a Kakao Account, <br>log in with your email or phone number.
+                If you have a TravelTalk Account, <br>log in with your email or phone number.
             </p>
         </header>
 
@@ -36,12 +48,13 @@
             <input name="password" type="password" placeholder="Password" />    
             <input type ="submit" value="Log In" />
             <input type ="submit" value="Sign Up" />
-            <a href="#">Find Kakao Account or Password</a>
-
+            <a href="#">Find TravelTalk Account or Password</a>
         </form>
 
         <div id="no-mobile">
-            <span>Your screen is too big!</span>
+            <div>Your screen is too big🧨</div>
+            <div>💥Drag the window to shrink it💨</div>
+            <div id="welcomewelcome">Welcome To 🛫TRAVELTALK🛫</div>
         </div>
         <script
         src="https://kit.fontawesome.com/6478f529f2.js"
@@ -49,7 +62,7 @@
         ></script>
 
         <div id="splash-screen">
-             <i class="fas fa-comment"></i>     
+             <i class="fas fa-plane-departure"></i>    
         </div>
     </body>
 
